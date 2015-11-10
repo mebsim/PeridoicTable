@@ -3,25 +3,25 @@ import java.util.Scanner;
 public class PeriodicTable {
 
     public static void main(String[] args) {
-        int anum = 0;
+        int anum = 0; //atomic number
         System.out.println("Welcome to the Valence Electrons Calculator. "
                 + "Please write the symbol of the element you want to find "
                 + "the number of valence electron for: ");
         Scanner scan = new Scanner(System.in);
         String choice = scan.nextLine();
-        String element;
+        String element; //name of the element chosen
         if(choice.equals("H")){
             anum = 1;
             element = "Hydrogen";
         }else{
-            element = "The unknown element";
+            element = "The unknown element"; //choses this if it is not Hydrogen, all other elements can cancel it out
         }
         if(choice.equals("He")){
             anum = 2;
             element = "Helium";
         }
         if(choice.equals("Li")){
-            anum = 3;
+            anumber = 3;
             element = "Lithium";
         }
         if(choice.equals("Be")){
