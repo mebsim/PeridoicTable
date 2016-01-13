@@ -92,6 +92,46 @@ public class PeriodicTable {
             anum = 20;
             element = "Calcium";
         }
+        if(choice.equals("Sc")){
+            anum = 21;
+            element = "Scandium";
+        }
+        if(choice.equals("Ti")){
+            anum = 22;
+            element = "Titanium";
+        }
+        if(choice.equals("V")){
+            anum = 23;
+            element = "Vanadium";
+        }
+        if(choice.equals("Cr")){
+            anum = 24;
+            element = "Chromium";
+        }
+        if(choice.equals("Mn")){
+            anum = 25;
+            element = "Manganese";
+        }
+        if(choice.equals("Fe")){
+            anum = 26;
+            element = "Iron";
+        }
+        if(choice.equals("Co")){
+            anum = 27;
+            element = "Cobalt";
+        }
+        if(choice.equals("Ni")){
+            anum = 28;
+            element = "Nickel";
+        }
+        if(choice.equals("Cu")){
+            anum = 29;
+            element = "Copper";
+        }
+        if(choice.equals("Zn")){
+            anum = 30;
+            element = "Zinc";
+        }
         if(anum > 2){
             anum = anum - 2;
         }
