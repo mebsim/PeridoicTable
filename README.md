@@ -4,4 +4,5 @@ to find the ionic charge and the name of
 the element by using the element's symbol.
 
 Currently only have first 30. The rest 
-will be added after a while.
+may be added if I feel like it. It is 
+mainly a random thing I wanted to upload.
